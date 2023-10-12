@@ -1,0 +1,13 @@
+const KanbanBoard = () => {
+  return (
+    <div className="m-auto flex min-h-screen w-full items-center overflow-x-auto overflow-y-hidden px-[40px]">
+      <div className="m-auto">
+        <button className="h-[60px] w-[350px] min-w-[350px] cursor-pointer rounded-lg bg-mainBackgroundColor border-2 border-columnBackgroundColor p-4 ring-amber-700 hover:ring-1">
+          Add Column
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default KanbanBoard;
